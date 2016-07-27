@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-image: url(images/map_op51.jpg);
+}
+
+#container{
+    width:960px;
+    margin:auto;
+    background-color: #ffffff;
+    border:solid blue 2px;
+}
+
+/* h1 tag styles the heading for each page */
+h1{
+    font-family: 'Homemade Apple', cursive;
+    color: #004080;
+    margin: 0px 40px;
+}
+
+h1 span{
+    font-family: serf;
+    font-size:100px;
+}
+
+/* start of menu bar styling */
+.menu ul{
+    display: table;
+    width: 100%;
+    background-color: #ffcc00;
+    
+}
+
+.menu ul li{
+    display: table-cell;
+    text-align: center;
+    width: 25%;
+    
+    
+}
+
+.menu a{
+     text-decoration: none;
+     font-size:20px;
+    font-weight: bold;
+    font-family: sarif;
+    color: #004080;
+}
+
+.menu a:hover{
+    color: red;
+}
+/* end of menu bar styling */
+
+
+/* start content styling */
+.info{
+    /*margin: 40px 0px;*/
+    border: solid 2px;
+}
+
+.info h2{
+    text-align:center;
+    font-size: 30px;
+    font-family: Garamond, sans-serif;
+}
+
+.info h2 span{
+    font-size: 60px;
+    font-family: Garamond, sans-serif;
+}
+
+.info p{
+    margin: 30px 20px;
+    text-align:justify;
+    font-size: 20px;
+    font-family: Garamond, sans-serif;
+    font-weight: bold;
+    
+}
+
+.info img{
+    display:block;
+    margin: auto
+    
+}
+
+
+
+.info ol{
+    position: static;
+    
+    
+}
+
+.info ol li{
+    position: relative;
+    left:40px;
+    font-size: 20px;
+    font-family:Garamond, sans-serif;
+    
+}
+
+
+
+/* end of content styling */
