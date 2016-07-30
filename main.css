@@ -10,8 +10,8 @@ body{
 #container{
     width:960px;
     margin:auto;
-    background-color: #ffffff;
-    border:solid blue 2px;
+    
+    /*border:solid blue 2px;*/
 }
 
 /* h1 tag styles the heading for each page */
@@ -26,20 +26,22 @@ h1 span{
     font-size:100px;
 }
 
+h1 a{
+    text-decoration: none;
+    color: #004080;
+}
+
 /* start of menu bar styling */
 .menu ul{
     display: table;
     width: 100%;
     background-color: #ffcc00;
-    
 }
 
 .menu ul li{
     display: table-cell;
     text-align: center;
     width: 25%;
-    
-    
 }
 
 .menu a{
@@ -51,15 +53,31 @@ h1 span{
 }
 
 .menu a:hover{
-    color: red;
+    color: blue;
 }
 /* end of menu bar styling */
 
 
 /* start content styling */
+
+h3{
+    font-family: 'Homemade Apple', cursive;
+    color: #004080;
+    margin: 0px 40px;
+    font-size:30px;
+    text-align:center;
+}
+
+h3 span{
+    font-family: serf;
+    font-size:60px;
+    text-align:center;
+}
+
 .info{
-    /*margin: 40px 0px;*/
+    margin: 40px 0px;
     border: solid 2px;
+    background-color: #ffffff;
 }
 
 .info h2{
@@ -74,7 +92,7 @@ h1 span{
 }
 
 .info p{
-    margin: 30px 20px;
+    margin: 30px 100px;
     text-align:justify;
     font-size: 20px;
     font-family: Garamond, sans-serif;
@@ -84,7 +102,8 @@ h1 span{
 
 .info img{
     display:block;
-    margin: auto
+    margin: 20px auto;
+    border: solid 4px #004080 ;
     
 }
 
@@ -92,6 +111,7 @@ h1 span{
 
 .info ol{
     position: static;
+    margin: 10px 30px;
     
     
 }
@@ -104,6 +124,27 @@ h1 span{
     
 }
 
+h4{
+    font-family: serf;
+    font-size:30px;
+    text-align:center;
+}
+
+.info ul{
+    position: static;
+    font-size:20px;
+    margin:10px 20px;
+    
+    
+}
+
+.info ul li{
+    position: relative;
+    left:20px;
+    font-size: 20px;
+    font-family:Garamond, sans-serif;
+    
+}
 
 
 /* end of content styling */
